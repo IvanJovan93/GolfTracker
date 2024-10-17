@@ -1,0 +1,32 @@
+# Disable specific rules
+disabled_rules:
+  - trailing_whitespace
+
+# Enable opt-in rules
+opt_in_rules:
+  - empty_count
+  - explicit_init
+
+# Configure rule severity
+line_length:
+  warning: 150
+  error: 170
+  ignores_comments: true
+  ignores_urls: true
+
+# Specify files or directories to exclude
+excluded:
+  - Pods
+  - Carthage
+  - GeneratedFiles
+
+# Exclude specific file types
+excluded_file_types:
+  - json
+  - markdown
+
+# Include specific files or folders (optional, exclude takes priority)
+included:
+  - MyApp/Classes
+  - MyApp/Views
+

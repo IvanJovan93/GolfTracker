@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D950CCBB2CC04D3B009E49FD /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D950CCBA2CC04D3B009E49FD /* Lottie */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D951B49A2CBD8D920085DEBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D951B47E2CBD8D910085DEBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D951B4852CBD8D910085DEBA;
+			remoteInfo = FriendsListTrackman;
+		};
+		D951B4A42CBD8D920085DEBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D951B47E2CBD8D910085DEBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D951B4852CBD8D910085DEBA;
+			remoteInfo = FriendsListTrackman;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D951B4862CBD8D910085DEBA /* FriendsListTrackman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendsListTrackman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D951B4992CBD8D920085DEBA /* FriendsListTrackmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsListTrackmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D951B4A32CBD8D920085DEBA /* FriendsListTrackmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsListTrackmanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D951B4882CBD8D910085DEBA /* FriendsListTrackman */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FriendsListTrackman;
+			sourceTree = "<group>";
+		};
+		D951B49C2CBD8D920085DEBA /* FriendsListTrackmanTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FriendsListTrackmanTests;
+			sourceTree = "<group>";
+		};
+		D951B4A62CBD8D920085DEBA /* FriendsListTrackmanUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FriendsListTrackmanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D951B4832CBD8D910085DEBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D950CCBB2CC04D3B009E49FD /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D951B4962CBD8D920085DEBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D951B4A02CBD8D920085DEBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D951B47D2CBD8D910085DEBA = {
+			isa = PBXGroup;
+			children = (
+				D951B4882CBD8D910085DEBA /* FriendsListTrackman */,
+				D951B49C2CBD8D920085DEBA /* FriendsListTrackmanTests */,
+				D951B4A62CBD8D920085DEBA /* FriendsListTrackmanUITests */,
+				D951B4872CBD8D910085DEBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D951B4872CBD8D910085DEBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D951B4862CBD8D910085DEBA /* FriendsListTrackman.app */,
+				D951B4992CBD8D920085DEBA /* FriendsListTrackmanTests.xctest */,
+				D951B4A32CBD8D920085DEBA /* FriendsListTrackmanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D951B4852CBD8D910085DEBA /* FriendsListTrackman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D951B4AD2CBD8D920085DEBA /* Build configuration list for PBXNativeTarget "FriendsListTrackman" */;
+			buildPhases = (
+				D950CCCA2CC1826F009E49FD /* ShellScript */,
+				D951B4822CBD8D910085DEBA /* Sources */,
+				D951B4832CBD8D910085DEBA /* Frameworks */,
+				D951B4842CBD8D910085DEBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9EA1A6E2CC1836C004BCD01 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D951B4882CBD8D910085DEBA /* FriendsListTrackman */,
+			);
+			name = FriendsListTrackman;
+			packageProductDependencies = (
+				D950CCBA2CC04D3B009E49FD /* Lottie */,
+			);
+			productName = FriendsListTrackman;
+			productReference = D951B4862CBD8D910085DEBA /* FriendsListTrackman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D951B4982CBD8D920085DEBA /* FriendsListTrackmanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D951B4B02CBD8D920085DEBA /* Build configuration list for PBXNativeTarget "FriendsListTrackmanTests" */;
+			buildPhases = (
+				D951B4952CBD8D920085DEBA /* Sources */,
+				D951B4962CBD8D920085DEBA /* Frameworks */,
+				D951B4972CBD8D920085DEBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D951B49B2CBD8D920085DEBA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D951B49C2CBD8D920085DEBA /* FriendsListTrackmanTests */,
+			);
+			name = FriendsListTrackmanTests;
+			packageProductDependencies = (
+			);
+			productName = FriendsListTrackmanTests;
+			productReference = D951B4992CBD8D920085DEBA /* FriendsListTrackmanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D951B4A22CBD8D920085DEBA /* FriendsListTrackmanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D951B4B32CBD8D920085DEBA /* Build configuration list for PBXNativeTarget "FriendsListTrackmanUITests" */;
+			buildPhases = (
+				D951B49F2CBD8D920085DEBA /* Sources */,
+				D951B4A02CBD8D920085DEBA /* Frameworks */,
+				D951B4A12CBD8D920085DEBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D951B4A52CBD8D920085DEBA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D951B4A62CBD8D920085DEBA /* FriendsListTrackmanUITests */,
+			);
+			name = FriendsListTrackmanUITests;
+			packageProductDependencies = (
+			);
+			productName = FriendsListTrackmanUITests;
+			productReference = D951B4A32CBD8D920085DEBA /* FriendsListTrackmanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D951B47E2CBD8D910085DEBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D951B4852CBD8D910085DEBA = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D951B4982CBD8D920085DEBA = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D951B4852CBD8D910085DEBA;
+					};
+					D951B4A22CBD8D920085DEBA = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D951B4852CBD8D910085DEBA;
+					};
+				};
+			};
+			buildConfigurationList = D951B4812CBD8D910085DEBA /* Build configuration list for PBXProject "FriendsListTrackman" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D951B47D2CBD8D910085DEBA;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D950CCB92CC04D3B009E49FD /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				D950CCC92CC181A0009E49FD /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D951B4872CBD8D910085DEBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D951B4852CBD8D910085DEBA /* FriendsListTrackman */,
+				D951B4982CBD8D920085DEBA /* FriendsListTrackmanTests */,
+				D951B4A22CBD8D920085DEBA /* FriendsListTrackmanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D951B4842CBD8D910085DEBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D951B4972CBD8D920085DEBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D951B4A12CBD8D920085DEBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D950CCCA2CC1826F009E49FD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -f \"$SRCROOT/SwiftLint/swiftlint\" ]; then\n    $SRCROOT/SwiftLint/swiftlint\nelse\n    echo \"warning: SwiftLint not installed\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D951B4822CBD8D910085DEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D951B4952CBD8D920085DEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D951B49F2CBD8D920085DEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D951B49B2CBD8D920085DEBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D951B4852CBD8D910085DEBA /* FriendsListTrackman */;
+			targetProxy = D951B49A2CBD8D920085DEBA /* PBXContainerItemProxy */;
+		};
+		D951B4A52CBD8D920085DEBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D951B4852CBD8D910085DEBA /* FriendsListTrackman */;
+			targetProxy = D951B4A42CBD8D920085DEBA /* PBXContainerItemProxy */;
+		};
+		D9EA1A6E2CC1836C004BCD01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = D9EA1A6D2CC1836C004BCD01 /* SwiftLintBuildToolPlugin */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D951B4AB2CBD8D920085DEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D951B4AC2CBD8D920085DEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D951B4AE2CBD8D920085DEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FriendsListTrackman/FriendsListTrackman.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FriendsListTrackman/Preview Content\"";
+				DEVELOPMENT_TEAM = GF7K354RN3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivanPersonal.FriendsListTrackman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D951B4AF2CBD8D920085DEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FriendsListTrackman/FriendsListTrackman.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FriendsListTrackman/Preview Content\"";
+				DEVELOPMENT_TEAM = U2H98Y2573;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivanPersonal.FriendsListTrackman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D951B4B12CBD8D920085DEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2H98Y2573;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivanPersonal.FriendsListTrackmanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendsListTrackman.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FriendsListTrackman";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D951B4B22CBD8D920085DEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2H98Y2573;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivanPersonal.FriendsListTrackmanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendsListTrackman.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FriendsListTrackman";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D951B4B42CBD8D920085DEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2H98Y2573;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivanPersonal.FriendsListTrackmanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = FriendsListTrackman;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D951B4B52CBD8D920085DEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2H98Y2573;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivanPersonal.FriendsListTrackmanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = FriendsListTrackman;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D951B4812CBD8D910085DEBA /* Build configuration list for PBXProject "FriendsListTrackman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D951B4AB2CBD8D920085DEBA /* Debug */,
+				D951B4AC2CBD8D920085DEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D951B4AD2CBD8D920085DEBA /* Build configuration list for PBXNativeTarget "FriendsListTrackman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D951B4AE2CBD8D920085DEBA /* Debug */,
+				D951B4AF2CBD8D920085DEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D951B4B02CBD8D920085DEBA /* Build configuration list for PBXNativeTarget "FriendsListTrackmanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D951B4B12CBD8D920085DEBA /* Debug */,
+				D951B4B22CBD8D920085DEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D951B4B32CBD8D920085DEBA /* Build configuration list for PBXNativeTarget "FriendsListTrackmanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D951B4B42CBD8D920085DEBA /* Debug */,
+				D951B4B52CBD8D920085DEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D950CCB92CC04D3B009E49FD /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+		D950CCC92CC181A0009E49FD /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.57.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D950CCBA2CC04D3B009E49FD /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D950CCB92CC04D3B009E49FD /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		D9EA1A6D2CC1836C004BCD01 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D950CCC92CC181A0009E49FD /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D951B47E2CBD8D910085DEBA /* Project object */;
+}
